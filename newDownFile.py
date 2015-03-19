@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 #encoding=utf-8
-
+"""
+自定义下载仓库文件
+"""
 from os.path import basename
 from urlparse import urlsplit
 import urllib2,sys,re,os
